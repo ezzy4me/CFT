@@ -1,7 +1,6 @@
 import os
-os.chdir('/home/sangmin')
 path = os.getcwd()
-os.chdir(path + '/cft/dtree')
+os.chdir(path + '/dtree')
 
 # from sklearn.metrics import classification_report, confusion_matrix
 # src 다운로드 후 실행해보니 오류가 뜹니다. 아래서 말하는대로 setup.py다운받고자 했지만, 오류가 뜨네요.
